@@ -1,0 +1,17 @@
+Source: bbbs-equivs
+Section: contrib/comm
+Priority: extra
+Maintainer: Robert James Clay <jame@rocasa.org>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+Homepage: http://www.bbbs.net 
+
+Package: bbbs
+Architecture: i386
+Pre-Depends: wget 
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: zip, unzip                                                                                                                        
+Suggests: arc, arj, unrar-free, unzoo, zoo, lha                                                                                        
+Provides: httpd, ftp-server, mail-transport-agent, pop3-server, telnet-server
+Description: BBBS v4.01 Flag equivs
+ <insert long description, indented with spaces>
