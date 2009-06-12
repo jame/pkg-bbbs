@@ -1,6 +1,12 @@
-bbbs-installer for Debian
+bbbs-installer package
 -------------------------
 
-<possible notes regarding this package - if none, delete this file>
+   Installer package for the BBBS BBS application.   The installer either uses the
+archive file /tmp/bbbs_lii.tar.gz if it is already present or it downloads the
+archive from the authors website (http://www.bbbs.net/ftp/bbbs_lii.tar.gz).  In
+either case, it then installs the application to the directory /opt/bbbs.
 
- -- Robert James Clay <jame@rocasa.org>  Thu,  6 Mar 2008 18:22:51 -0500
+   At the time of this writing, the version of BBBS that is available is
+BBBS v4.01 Flag.  
+
+ -- Robert James Clay <jame@rocasa.org>  Thu, 11 Jun 2009 20:24:51 -0400
