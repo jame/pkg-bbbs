@@ -8,7 +8,6 @@ Homepage: http://www.bbbs.net
 
 Package: bbbs
 Architecture: i386
-Pre-Depends: wget 
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: zip, unzip                                                                                                                        
 Suggests: arc, arj, unrar-free, unzoo, zoo, lha                                                                                        
