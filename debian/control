@@ -14,4 +14,10 @@ Recommends: zip, unzip
 Suggests: arc, arj, unrar-free, unzoo, zoo, lha                                                                                        
 Provides: httpd, ftp-server, mail-transport-agent, pop3-server, telnet-server
 Description: BBBS v4.01 Flag equivs
- <insert long description, indented with spaces>
+ BBBS v4.01 Flag. Complete BBS package with
+ WWW/InterNet/modem/ISDN/LAN based access
+ modes. Everything you need to run a BBS!
+ This package is for when you have manually
+ installed BBBS and would like to make it 
+ like a standard Debian installed package.
+ 
