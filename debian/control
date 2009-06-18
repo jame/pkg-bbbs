@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 Homepage: http://www.bbbs.net 
 
 Package: bbbs
-Architecture: i386
+Architecture: All
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: zip, unzip                                                                                                                        
 Suggests: arc, arj, unrar-free, unzoo, zoo, lha                                                                                        
