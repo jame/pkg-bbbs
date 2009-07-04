@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 Homepage: http://www.bbbs.net 
 
-Package: bbbs
+Package: bbbs-equivs
 Architecture: All
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: zip, unzip                                                                                                                        
