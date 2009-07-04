@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 Homepage: http://www.bbbs.net 
 
-Package: bbbs
+Package: bbbs-installer
 Architecture: i386
 Pre-Depends: wget 
 Depends: ${shlibs:Depends}, ${misc:Depends}
