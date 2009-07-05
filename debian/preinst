@@ -15,7 +15,13 @@ set -e
 
 
 case "$1" in
-    install|upgrade)
+    install)
+	# If archive file is not already available, then attempt to download it.
+	if [ ! -f /tmp/bbbs_lii.tar.gz ]
+	then
+	    cd /tmp
+	    wget http://www.bbbs.net/ftp/bbbs_lii.tar.gz2
+	fi
     ;;
 
     abort-upgrade)
