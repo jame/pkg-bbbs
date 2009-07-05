@@ -20,6 +20,28 @@ set -e
 
 case "$1" in
     configure)
+	# If the /opt/bbbs not already present, proceed with the install
+	if [ -d /opt/bbbs ]
+	then
+	    # If archive file is available, then untar it to do the install.  If not present, display a message regarding that.
+	    if [ -f /tmp/bbbs_lii.tar.gz ]
+	    then
+	        # Change to where BBBS will be installed
+	        cd /opt
+	        # Untar BBBS to /opt/bbbs
+	        /bin/tar -xvvzf /tmp/bbbs_lii.tar.gz
+	        # Remove unneccessary file
+	        rm -f /opt/file_id.diz
+	    else
+		# The BBBS archive was not present for the installation
+	        echo "BBBS archive is not present;  download it from http://www.bbbs.net/ftp/bbbs_lii.tar.gz to /tmp, then run this again."
+	        exit 1
+    	    fi
+	else
+	    # BBBS directory is already present
+	    echo "The BBBS directory is already present, aborting."
+	    exit 1
+    	fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
