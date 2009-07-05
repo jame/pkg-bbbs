@@ -27,4 +27,3 @@ Description: BBBS v4.01 Flag Installer
  from the www.bbbs.net web site, or uses the
  one in the tmp directory if already present,
  then installs the application to the system.
- 
