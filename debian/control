@@ -5,7 +5,7 @@ Maintainer: Robert James Clay <jame@rocasa.org>
 Build-Depends: debhelper (>= 5)
 Depends: adduser
 Standards-Version: 3.7.2
-Homepage: http://www.bbbs.net 
+Homepage: http://rocasa.org/bbbsdeb 
 
 Package: bbbs-installer
 Architecture: i386
