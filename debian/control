@@ -3,6 +3,7 @@ Section: contrib/comm
 Priority: extra
 Maintainer: Robert James Clay <jame@rocasa.org>
 Build-Depends: debhelper (>= 5)
+Depends: adduser
 Standards-Version: 3.7.2
 Homepage: http://www.bbbs.net 
 
