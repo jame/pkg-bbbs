@@ -34,6 +34,8 @@ case "$1" in
 	        /bin/tar -xvvzf /tmp/bbbs_lii.tar.gz
 	        # Remove unneccessary file
 	        rm -f /opt/file_id.diz
+	        # Set ownership for the /opt/bbbs directory
+	        /bin/chown -R bbbs:bbbs /opt/bbbs
 	    else
 		# The BBBS archive was not present for the installation
 	        echo "BBBS archive is not present;  download it from http://www.bbbs.net/ftp/bbbs_lii.tar.gz to /tmp, then run this again."
