@@ -20,7 +20,7 @@ case "$1" in
 	if [ ! -f /tmp/bbbs_lii.tar.gz ]
 	then
 	    cd /tmp
-	    wget http://www.bbbs.net/ftp/bbbs_lii.tar.gz2
+	    wget http://www.bbbs.net/ftp/bbbs_lii.tar.gz
 	fi
     ;;
 
