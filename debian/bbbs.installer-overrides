@@ -1,0 +1,5 @@
+# debian/source.lintian-overrides for bbbs-installer
+
+#    The installer doc-base file is configuring files that
+# are being installed from the BBBS archive.
+bbbs-installer: doc-base-file-references-missing-file
