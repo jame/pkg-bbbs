@@ -26,6 +26,8 @@ case "$1" in
 	    # If archive file is available, then untar it to do the install.  If not present, display a message regarding that.
 	    if [ -f /tmp/bbbs_lii.tar.gz ]
 	    then
+		# configure 'bbbs' user and group as neccessary
+		getent passwd bbbs >/dev/null 2>&1 || adduser --system --quiet --home /opt/bbbs --group --shell /bin/bash --gecos "BBBS Admin" bbbs || addgroup bbbs dialout
 	        # Change to where BBBS will be installed
 	        cd /opt
 	        # Untar BBBS to /opt/bbbs
