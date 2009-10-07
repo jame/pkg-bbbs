@@ -1,10 +1,14 @@
-# Defaults for bbbs-installer initscript
-# sourced by /etc/init.d/bbbs-installer
-# installed at /etc/default/bbbs-installer by the maintainer scripts
+# Defaults for bbbsd initscript
+# sourced by /etc/init.d/bbbsd
+# installed at /etc/default/bbbsd by the maintainer scripts
 
 #
 # This is a POSIX shell fragment
 #
+
+# Run Synchronet at startup ? Set to "Yes" after configuring the BBBS
+# /opt/bbbs/scripts/in.bbbsd script in order for it to start at bootup.
+BBBSD_ENABLE=No
 
 # Additional options that are passed to the Daemon.
 DAEMON_OPTS=""
