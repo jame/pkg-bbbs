@@ -1,4 +1,4 @@
-bbbs-installer (4.01-1) UNRELEASED; urgency=low
+bbbs-installer (0.1) UNRELEASED; urgency=low
 
   * Initial Release of the BBBS debian installer package. 
 
