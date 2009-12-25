@@ -12,7 +12,7 @@
 #		     It will not run if $BBBSD_ENABLE is set to "No".
 ### END INIT INFO
 
-# Author: Robert James Clay <jame@rocasa.org>
+# Author: Robert James Clay <jame@rocasa.us>
 #
 
 # Do NOT "set -e"
