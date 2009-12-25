@@ -4,6 +4,7 @@ Priority: extra
 Maintainer: Robert James Clay <jame@rocasa.us>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
+Vcs-Browser: http://git.rocasa.org/gitweb.cgi/bbbsdeb.git?a=shortlog;h=refs/heads/bbbs-equivs
 Homepage: http://rocasa.org/bbbsdeb
 
 Package: bbbs-equivs
