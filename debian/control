@@ -5,6 +5,7 @@ Maintainer: Robert James Clay <jame@rocasa.us>
 Build-Depends: debhelper (>= 5)
 Depends: adduser
 Standards-Version: 3.7.2
+Vcs-Browser: http://git.rocasa.org/gitweb.cgi/bbbsdeb.git?a=shortlog;h=refs/heads/bbbs-installer
 Homepage: http://rocasa.org/bbbsdeb 
 
 Package: bbbs-installer
