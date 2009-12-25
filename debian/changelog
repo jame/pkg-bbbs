@@ -1,5 +1,5 @@
-bbbs-installer (0.1) UNRELEASED; urgency=low
+bbbs-installer (0.2) UNRELEASED; urgency=low
 
   * Initial Release of the BBBS debian installer package. 
 
- -- Robert James Clay <jame@rocasa.us>  Fri, 25 Dec 2009 09:55:40 -0500
+ -- Robert James Clay <jame@rocasa.us>  Fri, 25 Dec 2009 11:28:40 -0500
