@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Robert James Clay <jame@rocasa.us>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
-Homepage: http://www.bbbs.net 
+Homepage: http://rocasa.org/bbbsdeb
 
 Package: bbbs-equivs
 Architecture: All
