@@ -30,8 +30,7 @@ build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
-	$(MAKE)
-	#docbook-to-man debian/bbbs-equivs.sgml > bbbs-equivs.1
+	#
 
 	touch $@
 
@@ -41,7 +40,7 @@ clean:
 	rm -f build-stamp configure-stamp
 
 	# Add here commands to clean up after the build process.
-	-$(MAKE) clean
+	#
 
 	dh_clean 
 
@@ -52,7 +51,7 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/bbbs-equivs.
-	$(MAKE) DESTDIR=$(CURDIR)/debian/bbbs-equivs install
+	#
 
 
 # Build architecture-independent files here.
@@ -66,10 +65,6 @@ binary-arch: build install
 	dh_installchangelogs 
 	dh_installdocs
 	dh_installexamples
-#	dh_install
-#	dh_installmenu
-#	dh_installinit
-#	dh_installcron
 	dh_installman
 	dh_link
 	dh_strip
