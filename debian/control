@@ -8,7 +8,7 @@ Vcs-Browser: http://git.rocasa.org/gitweb.cgi/bbbsdeb.git?a=shortlog;h=refs/head
 Homepage: http://rocasa.org/bbbsdeb
 
 Package: bbbs-equivs
-Architecture: All
+Architecture: i386
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: zip, unzip                                                                                                                        
 Suggests: arc, arj, unrar-free, unzoo, zoo, lha                                                                                        
