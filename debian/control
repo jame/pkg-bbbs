@@ -3,7 +3,6 @@ Section: contrib/comm
 Priority: extra
 Maintainer: Robert James Clay <jame@rocasa.us>
 Build-Depends: debhelper (>= 5)
-Depends: adduser
 Standards-Version: 3.7.2
 Vcs-Browser: http://git.rocasa.org/gitweb.cgi/bbbsdeb.git?a=shortlog;h=refs/heads/bbbs-installer
 Homepage: http://rocasa.org/bbbsdeb 
@@ -11,7 +10,7 @@ Homepage: http://rocasa.org/bbbsdeb
 Package: bbbs-installer
 Architecture: i386
 Pre-Depends: wget 
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: adduser
 Recommends: zip, unzip                                                                                                                        
 Suggests: arc, arj, unrar-free, unzoo, zoo, lha                                                                                        
 Provides: httpd, ftp-server, pop3-server, telnet-server
