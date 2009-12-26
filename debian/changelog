@@ -1,5 +1,5 @@
-bbbs-equivs (0.2) UNRELEASED; urgency=low
+bbbs-equivs (0.3) UNRELEASED; urgency=low
 
-  * Initial Release.
+  * Initial Release of bbbs-equivs package.
 
- -- Robert James Clay <jame@rocasa.us>  Fri, 25 Dec 2009 10:11:51 -0500
+ -- Robert James Clay <jame@rocasa.us>  Sat, 26 Dec 2009 12:07:51 -0500
