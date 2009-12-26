@@ -1,0 +1,8 @@
+bbbs-equivs TODO
+====================
+
+-  Add a Vcs-git entry to debian/control.
+-  Come up with an example in.bbbsd file & add info about it to a readme file.
+-  Create & use a debian/examples directory.
+
+ -- Robert James Clay <jame@rocasa.us>  Sat, 26 Dec 2009 13:54:40 -0500
