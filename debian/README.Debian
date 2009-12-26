@@ -1,6 +1,13 @@
 bbbs-equivs for Debian
 -------------------------
 
-<possible notes regarding this package - if none, delete this file>
+     This packages sets up the 'Provides' for the following functions:
+httpd, ftp-server, pop3-server, telnet-server.   This indicates to the
+system dependancies that BBBSD can satisfy.  
 
- -- Robert James Clay <jame@rocasa.us>  Fri, 25 Dec 2009 10:15:51 -0500
+     It also sets up symbolic links from the /usr/share/doc/bbbs directory
+to various documentation files in /opt/bbbs/doc.   It assumes that BBBS
+is installed in the directory /opt/bbbs.
+
+
+ -- Robert James Clay <jame@rocasa.us>  Sat, 26 Dec 2009 13:20:51 -0500
