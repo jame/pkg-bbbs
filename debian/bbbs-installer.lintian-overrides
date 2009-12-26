@@ -3,3 +3,6 @@
 #    The installer doc-base file is configuring files that
 # are being installed from the BBBS archive.
 bbbs-installer: doc-base-file-references-missing-file
+
+#   The /tmp directory is used for the BBBS archive
+bbbs-installer: possibly-insecure-handling-of-tmp-files-in-maintainer-script
