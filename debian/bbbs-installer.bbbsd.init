@@ -8,8 +8,8 @@
 # Short-Description: Start BBBS Daemons
 # Description:       This file is used to start the bbbsd instances for BBBS.
 #                    It uses the file in.bbbsd to start the bbbsd instances.
-# 		     To kill the instances, it does a killall bbbsd
-#		     It will not run if $BBBSD_ENABLE is set to "No".
+#                    To kill the instances, it does a killall bbbsd.
+#                    It will not run if $BBBSD_ENABLE is set to "No".
 ### END INIT INFO
 
 # Author: Robert James Clay <jame@rocasa.us>
